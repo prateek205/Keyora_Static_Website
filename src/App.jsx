@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Components/Layouts/Navbar";
+import HeroSection from "./Sections/HeroSection";
+import CollectionSection from "./Sections/CollectionSection";
+import FeaturesSection from "./Sections/FeaturesSection";
+import GallerySection from "./Sections/GallerySection";
+import TestimonialsSection from "./Sections/TestimonialSection";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <>
+      <Navbar />
+      <HeroSection />
+      <CollectionSection />
+      <FeaturesSection />
+      <GallerySection />
+      <TestimonialsSection />
+    </>
+  );
+};
 
-export default App
+export default App;
